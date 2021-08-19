@@ -22,6 +22,11 @@ Retorno ao diretorio raiz e execute o comando para gerar os arquivos de white-la
 ```sh
 make pre-action env=AMBIENTE brand=NOMA_BRAND platform=ANDROID
 ```
+
+A execução pode ser encadeada
+```sh
+make clean; make get; make pre-action env=AMBIENTE brand=NOMA_BRAND platform=ANDROID;
+```
 Agora vá ao diretório **minha_app** e execute-o.
 
   

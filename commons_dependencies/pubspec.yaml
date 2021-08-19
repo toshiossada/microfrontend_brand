@@ -15,10 +15,7 @@ dependencies:
   flutter_modular: ^3.3.1    
   localization: ^1.0.0
   get: ^4.3.6
-  # responsys:
-  #   path: ../packages/responsys
-  platform_widget:
-    path: ../packages/platform_widget  
+
 
 dev_dependencies:
   flutter_test:

@@ -10,7 +10,7 @@ Future main(
     ..addOption(
       'brand',
       abbr: 'b',
-      defaultsTo: 'CVC',
+      defaultsTo: 'TOSHI',
     )
     ..addOption(
       'env',
