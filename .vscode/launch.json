@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "minha_app",
+            "cwd": "minha_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "home",
+            "cwd": "modules\\home\\example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "splash",
+            "cwd": "modules\\splash\\example",
+            "request": "launch",
+            "type": "dart"
+        },
+
+    ]
+}

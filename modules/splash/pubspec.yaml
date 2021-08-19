@@ -1,0 +1,27 @@
+name: splash
+description: A new Flutter package project.
+version: 0.0.1
+homepage: https://www.cvc.com.br/
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  commons:
+    path: '../../commons'
+  commons_dependencies:
+    path: '../../commons_dependencies'    
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.0.14
+  build_runner: ^2.1.1
+  flutter_lints: ^1.0.4
+  flutter_modular_test: ^1.0.1
+
+flutter:

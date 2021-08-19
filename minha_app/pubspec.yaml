@@ -1,0 +1,30 @@
+name: minha_app
+description: Whitelabel project using clean architecture on flutter
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  commons:
+    path: "../commons"
+  commons_dependencies:
+    path: "../commons_dependencies"
+  core:
+    path: "../core"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  args: ^2.1.1
+  process_run: ^0.12.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/
+    - lib/config/lang/ 

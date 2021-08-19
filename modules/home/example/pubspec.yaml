@@ -1,0 +1,29 @@
+name: example
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  core:
+    path: "../../../core"
+  commons_dependencies:
+    path: "../../../commons_dependencies"
+  home:
+    path: "../"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - packages/home/config/lang/en_US.json
+    - packages/home/config/lang/pt_BR.json

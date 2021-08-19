@@ -1,0 +1,32 @@
+name: core
+description: A new Flutter package project.
+version: 0.0.1
+homepage: https://www.cvc.com.br/
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  minha_app:
+    path: "../minha_app"
+  commons:
+    path: "../commons"
+  splash:
+    path: "../modules/splash"
+  home:
+    path: "../modules/home"
+  commons_dependencies:
+    path: "../commons_dependencies"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - packages/home/config/lang/en_US.json
+    - packages/home/config/lang/pt_BR.json
