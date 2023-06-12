@@ -14,7 +14,7 @@ class HomeModule extends Module {
     Bind.lazySingleton((i) => HomeStore()),
     Bind.lazySingleton<IGetAllEnterprise>((i) => GetAllEnterprise(i())),
     Bind.lazySingleton<IEnterpriseRepository>((i) => EnterpriseRepository()),
-    Bind.lazySingleton((i) => HomeController(i(), i())),
+    Bind.lazySingleton((i) => HomeController(i(), i(), i())),
   ];
 
   // Provide all the routes for your module

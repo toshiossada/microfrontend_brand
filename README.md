@@ -9,7 +9,7 @@ Projeto do aplicativo **Business to Consumer** contendo a nova proposta de arqui
 # Execução do Projeto
 
 Para que seja possível executar o projeto siga os seguintes passos:
-Agora é necessário baixar todas as dependências do projeto
+Agora é necessário baixar todas as dependências do projeto 
 
   
 ```sh
